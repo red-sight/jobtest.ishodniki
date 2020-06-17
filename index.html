@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <style type="text/css">
-      .currency-table,
-      .currency-table th,
-      .currency-table td {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-    </style>
-    <script type="text/javascript" src="./scripts.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <script src="./scripts.js"></script>
     <title>Тестовое задание</title>
   </head>
   <body>
-    <table class="currency-table">
-      <thead>
-        <tr>
-          <th>Currency</th>
-          <th>Rate</th>
-        </tr>
-      </thead>
-      <tbody id="currency-table-body"></tbody>
-    </table>
+    <div class="container">
+      <div class="select-currency-container">
+        <label for="select-currency">Выберите валюту:</label>
+        <select id="select-currency"> </select>
+      </div>
+      <table class="currency-table">
+        <thead>
+          <tr>
+            <th>Валюта</th>
+            <th>Курс</th>
+          </tr>
+        </thead>
+        <tbody id="currency-table-body">
+          <tr>
+            <th colspan="2">Подождите...</th>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </body>
 </html>

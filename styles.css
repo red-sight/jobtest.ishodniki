@@ -1,0 +1,28 @@
+.container {
+    width: 400px;
+    margin: auto
+}
+
+.select-currency-container {
+    padding: 15px 0
+}
+
+.currency-table {
+    width: 100%
+}
+
+.currency-table td:first-child {
+    text-align: center
+}
+
+.currency-table,
+.currency-table th,
+.currency-table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.currency-table th,
+.currency-table td {
+    padding: 6px 15px;
+}
